@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Guia Operacional SIAPE — Comandos e Procedimentos</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="hero">
+		<div class="container">
+			<h1>Guia Operacional SIAPE</h1>
+			<p class="lead">Consulta rápida de comandos e procedimentos operacionais para colaboradores.</p>
+			<div class="search-row">
+				<input id="search" placeholder="Pesquisar comandos, procedimentos ou palavras-chave (pressione /)" aria-label="Pesquisar">
+				<button id="printBtn">Imprimir</button>
+			</div>
+		</div>
+	</header>
+
+	<main class="container">
+		<section>
+			<h2>Comandos Rápidos</h2>
+			<p class="muted">Clique em <strong>Copiar</strong> para usar o comando no terminal ou no manual.</p>
+			<ul id="commands" class="commands-list" aria-live="polite"></ul>
+		</section>
+
+		<section>
+			<h2>Procedimentos</h2>
+			<div id="procedures" class="procedures-grid"></div>
+		</section>
+	</main>
+
+	<div id="modal" class="modal" aria-hidden="true">
+		<div class="modal-content">
+			<button id="closeModal" class="close">×</button>
+			<h3 id="modalTitle"></h3>
+			<div id="modalBody"></div>
+		</div>
+	</div>
+
+	<footer class="container footer">Documentação interna SIAPE — Mantenha atualizados os procedimentos.</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
