@@ -1,0 +1,62 @@
+DISPOSIÇÕES GERAIS 
+1. 
+OBJETIVO GERAL 
+O presente manual visa orientar os usuários do SIAPE em exercício nas unidades de 
+gestão de pessoas quanto aos procedimentos operacionais a serem adotados nos assuntos 
+relativos à folha de pagamento, para que haja padronização, na forma definida pela SGP e em 
+consonância com a legislação vigente. 
+2. 
+OBJETIVOS ESPECÍFICOS 
+Uniformizar os procedimentos e simplificar o trabalho das áreas de gestão de pessoas 
+relacionado aos processos envolvendo folha de pagamento dos servidores ativos, 
+aposentados e de pensionistas, com o objetivo de: 
+a) Eliminar erros operacionais; 
+b) Evitar apontamentos de Auditoria; e 
+c) Aumentar a confiabilidade das informações inseridas no sistema. 
+3. 
+APLICAÇÃO 
+Este manual tem abrangência no âmbito das competências regimentais das unidades de 
+gestão de pessoas da Administração Pública Federal direta, autárquica e fundacional. 
+4. 
+GLOSSÁRIO 
+Os termos utilizados neste Manual baseiam-se nas seguintes definições: 
+a) Assunto de cálculo: Recurso sistêmico com o objetivo de otimizar e racionalizar 
+o cálculo de parcelas não geradas automaticamente pelo sistema. Possuem regras 
+pré-determinadas e que podem contribuir nos lançamentos financeiros na folha 
+de pagamento; 
+b) Parametrização de rubrica: Transformação de norma em regra sistêmica. 
+Consiste na formação de uma regra a partir de parâmetros pré-definidos 
+internamente que resultam no cálculo da rotina para o cumprimento da norma; 
+c) Rubrica: código definido para cada uma das parcelas que compõem as 
+remunerações dos servidores ou para cada um dos tipos de benefícios. Também 
+utilizada para cada um dos descontos compulsórios e facultativos previstos na 
+legislação vigente; e 
+d) Transação: descrição do meio de acesso às funcionalidades do SIAPE para 
+operacionalizar movimentações financeiras e cadastrais. 
+e) Carga Batch: envio de arquivo de movimentação financeira através do 
+Siapenet, para atualização automática da ficha financeira dos servidores no banco 
+de dados do SIAPE; 
+f) TBCORUBRIC: transação onde é possível obter diversas informações 
+relacionadas às rubricas utilizadas na folha de pagamento. A rubrica é vinculada a 
+uma ou mais situações funcionais, regime jurídico e assunto de incidência (base 
+de cálculo). Além destas vinculações, ainda há as restrições sistêmicas: quais 
+cargos/empregos e/ou órgãos são compatíveis, bem como qual o valor máximo 
+permitido por sequência e ainda quais outras rubricas não podem ser pagas 
+concomitantemente com aquela; 
+g) COTBRUBRI: transação que permite consulta dos códigos de rubricas do SIAPE; 
+h) FPATMOVFIN: transação que atualiza de forma online, na folha normal, valores não 
+calculados automaticamente pelo sistema. Exemplo: inclusão de acerto referente a 
+progressão funcional; 
+i) FPCLPAGTO: transação que calcula online o pagamento do servidor para fins de 
+conferência em tempo real de atualizações efetuadas. 
+5. 
+SIGLAS 
+Constam deste Manual as seguintes siglas: 
+a) CPF: Cadastro de Pessoas Físicas; 
+b) MGI: Ministério da Gestão e da Inovação em Serviços Públicos; 
+c) DESIN: Diretoria de Soluções Digitais e Informações Gerenciais; 
+d) CGFIS: Coordenação-Geral de Gestão da Folha e Integração de Sistemas; 
+e) CGAAD: Coordenação Geral de Administração, Atendimento e Documentação; 
+f) MGI: Ministério da Gestão e da Inovação em Serviços Públicos; 
+g) SGP: Secretaria de Gestão de Pessoas; 
+h) SIAPE: Sistema Integrado de Administração de Recursos Humanos; 
