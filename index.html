@@ -1,52 +1,145 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Guia Operacional SIAPE — Comandos e Procedimentos</title>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Manual SIAPE — Reposição ao Erário</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<header class="hero">
-		<div class="container">
-			<h1>Guia Operacional SIAPE</h1>
-			<p class="lead">Consulta rápida de comandos e procedimentos operacionais para colaboradores.</p>
-			<div class="search-row">
-				<input id="search" placeholder="Pesquisar comandos, procedimentos ou palavras-chave (pressione /)" aria-label="Pesquisar">
-				<button id="printBtn">Imprimir</button>
-			</div>
-		</div>
-	</header>
+  <div class="document-shell">
+    <header class="document-header">
+      <div class="document-meta">
+        <p class="document-label">Manual operacional</p>
+        <h1>Reposição ao Erário</h1>
+        <p class="document-subtitle">Sistema Integrado de Administração de Recursos Humanos — SIAPE</p>
+        <p class="document-intro">Versão institucional para consulta rápida dos procedimentos operacionais relativos à folha de pagamento e à gestão de pessoas.</p>
+      </div>
+      <div class="header-actions">
+        <a class="button" href="manual.html">Abrir versão em página</a>
+        <a class="button secondary" href="manual_folha_de_pagamento_reposicao_ao_erario-2025.pdf" target="_blank" rel="noopener">Abrir PDF</a>
+      </div>
+    </header>
 
-	<main class="container">
-		<section>
-			<h2>Comandos Rápidos</h2>
-			<p class="muted">Clique em <strong>Copiar</strong> para usar o comando no terminal ou no manual.</p>
-			<ul id="commands" class="commands-list" aria-live="polite"></ul>
-		</section>
+    <div class="document-body">
+      <aside class="sidebar">
+        <nav class="toc-card" aria-label="Sumário do manual">
+          <h2>Sumário</h2>
+          <ol>
+            <li><a href="#capitulo-1" data-nav-link>1. Disposições gerais</a></li>
+            <li><a href="#capitulo-2" data-nav-link>2. Objetivo geral</a></li>
+            <li><a href="#capitulo-3" data-nav-link>3. Objetivos específicos</a></li>
+            <li><a href="#capitulo-4" data-nav-link>4. Aplicação</a></li>
+            <li><a href="#capitulo-5" data-nav-link>5. Glossário</a></li>
+            <li><a href="#capitulo-6" data-nav-link>6. Siglas</a></li>
+          </ol>
+        </nav>
 
-		<section>
-			<h2>Documentos</h2>
-			<p class="muted">Acesse o manual em formato de página ou abra o PDF diretamente.</p>
-			<p><a href="manual.html">Abrir manual em página</a></p>
-		</section>
+        <div class="note-card">
+          <h3>Navegação</h3>
+          <p>Use o sumário para avançar entre os capítulos e consultar o conteúdo com foco em procedimentos e definições.</p>
+        </div>
+      </aside>
 
-		<section>
-			<h2>Procedimentos</h2>
-			<div id="procedures" class="procedures-grid"></div>
-		</section>
-	</main>
+      <main class="document-content">
+        <section id="capitulo-1" class="chapter">
+          <div class="chapter-number">1</div>
+          <div class="chapter-body">
+            <h2>Disposições gerais</h2>
+            <p class="chapter-note">Marco inicial do manual, com a finalidade de orientar os usuários nas rotinas de folha de pagamento.</p>
+          </div>
+        </section>
 
-	<div id="modal" class="modal" aria-hidden="true">
-		<div class="modal-content">
-			<button id="closeModal" class="close">×</button>
-			<h3 id="modalTitle"></h3>
-			<div id="modalBody"></div>
-		</div>
-	</div>
+        <section id="capitulo-2" class="chapter">
+          <div class="chapter-number">2</div>
+          <div class="chapter-body">
+            <h2>Objetivo geral</h2>
+            <p>O presente manual visa orientar os usuários do SIAPE em exercício nas unidades de gestão de pessoas quanto aos procedimentos operacionais a serem adotados nos assuntos relativos à folha de pagamento, para que haja padronização, na forma definida pela SGP e em consonância com a legislação vigente.</p>
+          </div>
+        </section>
 
-	<footer class="container footer">Documentação interna SIAPE — Mantenha atualizados os procedimentos.</footer>
+        <section id="capitulo-3" class="chapter">
+          <div class="chapter-number">3</div>
+          <div class="chapter-body">
+            <h2>Objetivos específicos</h2>
+            <p>Uniformizar os procedimentos e simplificar o trabalho das áreas de gestão de pessoas relacionado aos processos envolvendo folha de pagamento dos servidores ativos, aposentados e de pensionistas, com o objetivo de:</p>
+            <ul>
+              <li>Eliminar erros operacionais;</li>
+              <li>Evitar apontamentos de Auditoria; e</li>
+              <li>Aumentar a confiabilidade das informações inseridas no sistema.</li>
+            </ul>
+          </div>
+        </section>
 
-	<script src="script.js"></script>
+        <section id="capitulo-4" class="chapter">
+          <div class="chapter-number">4</div>
+          <div class="chapter-body">
+            <h2>Aplicação</h2>
+            <p>Este manual tem abrangência no âmbito das competências regimentais das unidades de gestão de pessoas da Administração Pública Federal direta, autárquica e fundacional.</p>
+          </div>
+        </section>
+
+        <section id="capitulo-5" class="chapter">
+          <div class="chapter-number">5</div>
+          <div class="chapter-body">
+            <h2>Glossário</h2>
+            <p>Os termos utilizados neste Manual baseiam-se nas seguintes definições:</p>
+            <ul>
+              <li><strong>Assunto de cálculo:</strong> Recurso sistêmico com o objetivo de otimizar e racionalizar o cálculo de parcelas não geradas automaticamente pelo sistema. Possuem regras pré-determinadas e que podem contribuir nos lançamentos financeiros na folha de pagamento;</li>
+              <li><strong>Parametrização de rubrica:</strong> Transformação de norma em regra sistêmica. Consiste na formação de uma regra a partir de parâmetros pré-definidos internamente que resultam no cálculo da rotina para o cumprimento da norma;</li>
+              <li><strong>Rubrica:</strong> código definido para cada uma das parcelas que compõem as remunerações dos servidores ou para cada um dos tipos de benefícios. Também utilizada para cada um dos descontos compulsórios e facultativos previstos na legislação vigente; e</li>
+              <li><strong>Transação:</strong> descrição do meio de acesso às funcionalidades do SIAPE para operacionalizar movimentações financeiras e cadastrais.</li>
+              <li><strong>Carga Batch:</strong> envio de arquivo de movimentação financeira através do Siapenet, para atualização automática da ficha financeira dos servidores no banco de dados do SIAPE;</li>
+              <li><strong>TBCORUBRIC:</strong> transação onde é possível obter diversas informações relacionadas às rubricas utilizadas na folha de pagamento. A rubrica é vinculada a uma ou mais situações funcionais, regime jurídico e assunto de incidência (base de cálculo). Além destas vinculações, ainda há as restrições sistêmicas: quais cargos/empregos e/ou órgãos são compatíveis, bem como qual o valor máximo permitido por sequência e ainda quais outras rubricas não podem ser pagas concomitantemente com aquela;</li>
+              <li><strong>COTBRUBRI:</strong> transação que permite consulta dos códigos de rubricas do SIAPE;</li>
+              <li><strong>FPATMOVFIN:</strong> transação que atualiza de forma online, na folha normal, valores não calculados automaticamente pelo sistema. Exemplo: inclusão de acerto referente a progressão funcional;</li>
+              <li><strong>FPCLPAGTO:</strong> transação que calcula online o pagamento do servidor para fins de conferência em tempo real de atualizações efetuadas.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="capitulo-6" class="chapter">
+          <div class="chapter-number">6</div>
+          <div class="chapter-body">
+            <h2>Siglas</h2>
+            <p>Constam deste Manual as seguintes siglas:</p>
+            <ul>
+              <li><strong>CPF:</strong> Cadastro de Pessoas Físicas;</li>
+              <li><strong>MGI:</strong> Ministério da Gestão e da Inovação em Serviços Públicos;</li>
+              <li><strong>DESIN:</strong> Diretoria de Soluções Digitais e Informações Gerenciais;</li>
+              <li><strong>CGFIS:</strong> Coordenação-Geral de Gestão da Folha e Integração de Sistemas;</li>
+              <li><strong>CGAAD:</strong> Coordenação Geral de Administração, Atendimento e Documentação;</li>
+              <li><strong>SGP:</strong> Secretaria de Gestão de Pessoas;</li>
+              <li><strong>SIAPE:</strong> Sistema Integrado de Administração de Recursos Humanos.</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    const links = document.querySelectorAll('[data-nav-link]');
+    const sections = Array.from(document.querySelectorAll('.chapter'));
+
+    const activateSection = () => {
+      const offset = 140;
+      let currentId = sections[0]?.id;
+
+      sections.forEach((section) => {
+        if (window.scrollY + offset >= section.offsetTop) {
+          currentId = section.id;
+        }
+      });
+
+      links.forEach((link) => {
+        const isActive = link.getAttribute('href') === `#${currentId}`;
+        link.classList.toggle('active', isActive);
+      });
+    };
+
+    window.addEventListener('scroll', activateSection);
+    window.addEventListener('load', activateSection);
+  </script>
 </body>
 </html>
