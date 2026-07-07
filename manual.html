@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Manual SIAPE — Visualização em HTML</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Manual SIAPE</h1>
+      <p class="lead">Visualize o documento diretamente nesta página ou abra o PDF em uma nova aba.</p>
+      <div class="actions-row">
+        <a class="btn-link" href="index.html">← Voltar ao início</a>
+        <a class="btn-link secondary" href="manual_folha_de_pagamento_reposicao_ao_erario-2025.pdf" target="_blank" rel="noopener">Abrir PDF em nova aba</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="viewer-card">
+      <iframe
+        src="manual_folha_de_pagamento_reposicao_ao_erario-2025.pdf#toolbar=1&navpanes=1&scrollbar=1"
+        title="Visualização do manual em PDF"
+        class="pdf-frame"
+      ></iframe>
+    </section>
+  </main>
+</body>
+</html>

@@ -21,6 +21,11 @@ button{background:var(--accent);color:#fff;border:none;padding:10px 12px;border-
 .muted{color:var(--muted)}
 .footer{padding:20px 0;color:var(--muted);font-size:13px}
 .btn-small{background:#0b5cff;color:#fff;padding:6px 8px;border-radius:6px;border:none;cursor:pointer}
+.actions-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.btn-link{display:inline-block;padding:10px 12px;border-radius:6px;background:var(--accent);color:#fff;text-decoration:none}
+.btn-link.secondary{background:#334155}
+.viewer-card{background:var(--card);padding:16px;border:1px solid #e6eef8;border-radius:10px}
+.pdf-frame{width:100%;min-height:80vh;border:1px solid #e6eef8;border-radius:8px}
 .modal{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(10,12,20,0.45)}
 .modal[aria-hidden="false"]{display:flex}
 .modal-content{background:var(--card);padding:18px;border-radius:10px;max-width:720px;width:90%;box-shadow:0 10px 30px rgba(2,6,23,0.12);position:relative}
